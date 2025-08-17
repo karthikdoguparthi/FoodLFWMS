@@ -14,7 +14,9 @@ DB_PORT = st.secrets["DB_PORT"]
 DB_NAME = st.secrets["DB_NAME"]
 
 # Create DB connection
-engine = create_engine(f"mysql+pymysql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}")
+engine = create_engine(
+    f"mysql+pymysql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}?ssl_verify_cert=true&ssl_verify_identity=true"
+)
 
 def run_bootstrap_processes():
     # Run bootstrap SQL scripts
