@@ -4,6 +4,8 @@ Streamlit: https://foodlfwms.streamlit.app
 
 Report: https://youtu.be/_xuK8AdvCrQ
 
+Drive: https://drive.google.com/drive/folders/15VPLlNIy_6vz1hcmZZMwoA1-C2-wrPwa?usp=sharing
+
 Project Overview
 
 When I first started building the Local Food Wastage Management System, my goal was to create a platform that could connect food providers like restaurants, grocery stores, and even households with recipients like NGOs, food banks, and community centers. The idea was to reduce waste by making surplus food easily accessible to those who need it most.
